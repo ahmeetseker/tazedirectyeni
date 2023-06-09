@@ -39,7 +39,7 @@
         </form>
         </div>
 
-   
+        
     </div>
     </div>
     
@@ -75,7 +75,7 @@
     <div class="menu__bottom">
         <a href=""> <i class="fa-solid fa-house"></i> </a>
         <i class="fa-solid fa-angle-right"></i>
-        <span>Giriş Yap</span>
+        <span>Üye Ol</span>
     </div>
   </div>
 </div>
@@ -83,56 +83,85 @@
 
 <div class="login">
     <div class="login_text">
-        <h1>Giriş Yap</h1>
-        <p>Cep telefonu numaranı girerek devam et</p>
+        <h1>Üye Ol</h1>
+        <p>İndirimlerden faydalanmak için hemen üye ol</p>
     </div>
-
-    <form>
-        <div class="form">
-        <div class="form_component">
-            <input type="radio" name="phone"   ıd="numara" >
-            <label for="" class="phone_number" >Telefon Numarası ile </label>
-            <input type="radio"  name="phone" ıd="posta">
-             <label for="E-Posta">E-Posta ile</label>
-        </div>
+<form action="">
+    <div class="form">
+      
         <div class="form_login">
+        <label for="tel" class="phone">Telefon Numarası</label>
         <input type="tel" name="login_number"   placeholder="0(5__) ___ - __ __" maxlength="11" required >
-        <label for="">Şifre</label >
-        <input type="password" required >
+        <label for="">E-Posta</label>
+        <input type="email" required>
+        </div>
+        <div class="agreement">
+            <div class=personal_data_text>
+         <span class="underline_black">Kişisel Verilerin Korunması Hakkında Aydınlatma </span> Metni için tıklayın.
+        </div>
+
+
+
+         <div class="contract_content">
+         <input type="checkbox" name="" id="" required>
+         <div class="member_agreement">
+         
+             <label for="">  
+                 <a href=""><span class="underline_black">Üyelik Sözleşmesi </span>'ni onaylıyorum ve <span class="underline_black">Açık Rıza </span>
+                    Metni kapsamında kişisel verilerimin işlenmesine ve 
+                    paylaşılmasına onay veriyorum..</a>
+             </label>
+
+         </div>
+        </div>
+
+
+         <div class="contract_content_2">
+         <input type="checkbox" name="" id="" required>
+         <div class="member_agreement">
+            
+            <label for="">  
+                <a href="">Lorem ipsum indirim ve kampanyalarından anında 
+                    haberdar olmak için <span class="underline_black"> Lorem ipsum Ticari İletişim 
+                    İzni Metni </span> kapsamında iletişim izni veriyorum.</a>
+            </label>
+
+        </div>
+            </div>
+
         </div>
         <div class="btn">
-            <a href="/login.html"> <button>Giriş Yap</button></a>
+          <a href="/singup.html"> <button>Üye Ol</button></a> 
         </div>
         <div class="and">
             <span class="line"></span>
-            <span class="and_1" >veya</span>
+            <span class="and_1" >Zaten Üyeyseniz</span>
             <span class="line"></span>
         </div>
         <div class="btn_2">
-            <a href="#"> <button>Üye Ol</button></a> 
+           <a href="/login.html"> <button>Giriş Yap</button></a>
         </div>
 
-    <div class="password_recovery">
-        <a href="">Şifremi Unuttum</a>
+    
+
     </div>
-        </div>
-
-    </form>
+</form>
+</div>
 
 
 <footer>
 <div class="container_fluid">
     <div class="footer__top">
-       
+        <div class="logo__fluid">
+            <img src="/resimler/td-logo.png" alt="">
+        </div>
     
         
        
            <div class="footer_email">
-            <div class="logo__fluid">
-                <img src="/resimler/td-logo.png" alt="">
-            </div>
-           
-             <span>E-Bülten Üyeliği</span>
+            <div class="e-bulten">
+                <span>E-Bülten Üyeliği</span>
+             </div>
              <div class="input_mail_icon_send">
               <div class="email_icon" >
               <i class="fa-solid fa-envelope"></i> 

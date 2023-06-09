@@ -1,0 +1,631 @@
+@media only screen and (max-width: 1598px) {
+  
+   .logo{
+       margin-left: 32px;
+   }
+
+   nav ul li {
+    margin-right: 20px;
+    font-size: 11px;
+}
+   
+
+   .login1 a,.signup a{
+       font-size: 11px;
+
+   }
+
+   .shopping_component{
+       font-size: 11px;
+       width: 150px;
+   }
+
+   .icon__shopping {
+    padding-left: 17.5px;
+}
+
+.icon__shopping2 {
+    padding-right: 17.5px;
+}
+
+
+
+.cart-downlist{
+    width: 389px;
+    max-height: 400px;
+}
+
+.item-name h3 {
+    font-size: 11px;
+}
+
+.item-price1{
+    font-size: 18px;
+}
+
+
+.item-price2{
+    font-size: 10px;
+}
+
+.cart-down{
+  margin-right: 8px;
+}
+
+.cart-up{
+    margin-left: 8px;
+}
+
+
+.cart-downlist-item-up-down{
+    padding: 4px 7px;
+}
+.cart-downlist-open {
+
+    padding: 21px 16px;
+
+}
+.addtobasket {
+    padding: 20px 55px;
+}
+
+.clean{
+    padding: 20px 40px;
+}
+
+
+
+
+.shop-buttons{
+    height: 94px;
+}
+
+.swiper-slide-text h2 {
+   
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.swiper-slide-text p{
+    margin-bottom: 20px;
+}
+.swiper-slide-countdown ul li{
+    width: 90px;
+    height: 90px;
+    line-height: 13px;
+}
+
+.swiper-slide-countdown ul{
+    margin-bottom: 35px;
+}
+
+
+.slider-text-countdown-btn button{
+    padding: 20px 60px;
+    margin-bottom: 0px;
+
+}
+
+
+
+.leaf-img2 {
+    position: absolute;
+    left: -60px;
+}
+
+.leaf-img {
+    position: absolute;
+    right: 400px;
+}
+    
+
+
+
+
+
+
+
+#first{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.icon1 {
+    top: 13px;
+    left: 25px;
+    padding: 9px;
+   
+}
+
+.icon2 {
+    top: 13px;
+    padding: 9px;
+    left: 100px;
+
+}
+
+
+ .icon3{
+     top: 13px;
+     left:180px;
+     padding: 9px;
+    
+}
+
+.btn-price button {
+    padding: 10px 36px;
+}
+
+
+
+
+
+
+.section-card {
+    margin-right: 35px;
+    padding: 30px 30px;
+}
+
+.grid-product-name span:first-child, .grid-product-name-white span:first-child{
+    font-size: 13px;
+}
+.grid-content{
+    margin-left: 20px   ;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 1869px) {
+    .grid-icon-location-white{
+        margin-left: 10px;
+
+    }
+
+    .grid-btn button{
+        padding: 12px 17px;
+
+    }
+
+    .grid-btn-white button{
+        padding: 12px 17px;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+            }
+
+
+    .gird-tab{
+        grid-area: 1 / 1 / 2 / 2;
+
+    }
+
+    .product-1{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .product-2{
+        display: none;
+    }
+    .product-3{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .product-4{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .product-5{
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .product-6{
+        grid-area: 2 / 3 / 3 / 4;
+    }
+
+
+    .section-card{
+        padding: 101px 50px;
+        margin-right: 45px;
+        height: 200px;
+    }
+
+    .city select,.section-btn button {
+        width: 190px;
+        height: 50px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1183px)  {
+
+    .fındık_background{   
+
+        display: none !important;
+        
+        }
+        
+        .mobil_fındık{
+            display: block !important;
+        
+        }
+
+   
+
+        .slider-btn-next-mobile{
+            background-image: url(resimler/icons/mobile-next-arrow.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+        
+            width: 45px !important;
+            height: 45px !important;
+            top: 54% !important;
+        
+          }
+
+            
+          .slider-btn-prev-mobile {
+            background-image: url(resimler/icons/mobile-prev-arrow.png);
+            background-repeat: no-repeat;
+            background-position: none;
+            border: none;
+
+            width: 45px !important;
+            height: 45px !important;
+            top: 54% !important;
+          }
+
+          .slider-text-countdown-btn{
+            margin-left: 90px;
+        }
+
+.header label{
+    display: block;
+    padding: 25px;
+
+}
+
+.shopping_cart,.signup,.login1,.leaf-img2,.leaf-img,.search_Component{
+    display: none;
+}
+
+nav{
+
+    position:absolute;
+    width:100%;
+    
+
+}
+
+nav ul  {
+    display: none;
+
+}
+
+
+
+.icon1 {
+    top: 13px;
+    left: 25px;
+    padding: 9px;
+
+}
+
+
+
+
+.btn-price button {
+    padding: 10px 36px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:none;
+    grid-template-rows: none;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+        }
+
+
+.gird-tab{
+    grid-area: 1 / 1 / 2 / 2; 
+
+}
+
+.product-1{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.product-2{
+    display: none;
+}
+.product-3{
+    grid-area: 1 / 2 / 2 / 3; 
+}
+.product-4{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.product-5{
+    display: none;
+}
+
+.product-6{
+    display: none;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 735px){
+    .slider_content{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .slider-text-countdown-btn{
+        margin-left: 39px;
+    }
+
+    .swiper-slide-countdown ul li{
+    width: 77px;
+    height: 77px;
+    }
+
+
+/***3 lü slider kısmı***/
+    .left-card-mobile,.left-card-mobile h5,.left-card-mobile select{
+        display: block;
+    }
+    .slider-card{
+        display: none;
+    }
+
+    .card-slider{
+        display: block;
+    }
+
+    .icon-text span{
+        display: none;
+    }
+    .left-card-mobile{
+        margin: auto;
+        max-width: 315px;
+        margin-bottom: 26px;    
+    }
+    .left-card-mobile select{
+        margin: auto;
+    }
+
+    .icon-text img{
+        border: 1px solid #CCD6DE ;
+        padding: 10px;
+        border-radius: 50%;
+        
+    }
+
+    .mobile-icon-card{
+        display: flex !important;
+ 
+    }
+
+    .slider-custom__footer {
+        position: absolute;
+        bottom: auto;
+        left: 10px;
+
+    }
+    .slider-custom{
+        border-radius: 8px;
+    }
+    .slider-custom:hover > .slider-custom__content{
+        max-height: 192px;
+    }
+    .slider-custom__content{
+        height: 192px;
+    }
+
+ 
+   
+
+    .slider-custom__content{
+        border-radius: 8px;
+    }
+    .icons-card{
+        display: none;
+    }
+    .slider-custom:hover .price , .slider-custom:hover .price-cent-tl {
+        color: #00325d !important;
+    }
+    .slider-custom:hover .text-price-btn span {
+        color: black;
+    }
+
+
+    /**mobile-grid-section**/
+
+    .mobile-section{
+        display: block;
+        overflow: hidden;
+    }
+
+    .grid-container{
+        display: none;
+    }
+
+
+    /***food**/
+    .section-card{
+        display: none;
+    }
+    .section_slider-tabs{
+        display: block;
+    }
+
+    .food_city{
+        max-width: 240px;
+        width: 100%;
+
+    }
+
+    .food_category{
+
+        max-width: 240px;
+        width: 100%;
+        margin-top: 21px !important;
+    }
+
+    /****footer***/
+    .social_box_customer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer_label{
+        flex-direction: column-reverse;
+    }
+
+    .customer_service{
+        margin-top: 0;
+    }
+
+    .social_box {
+        margin-top: 10px;
+    }
+
+    .social_media {
+        margin-top: 21px;
+        margin-bottom: 20px;
+        border-top: 1px solid #efefef;
+        
+    }
+    
+
+    .footer_email{
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: space-around;
+        
+    }
+
+    .input_mail_icon_send{
+        max-width: 315px;
+    }
+
+    .input_mail_icon_send i{
+        color: 
+        #00325d;
+
+    }
+
+    .logo__fluid{
+        margin-bottom: 31px;
+    }
+    .footer_email span{
+        margin-bottom: 17px;
+        color: #00325d;
+        
+    }
+    .social_media ul{
+        margin-top: 30px;
+    }
+
+    .input_mail_icon_send svg {
+        fill: #00325d;
+        opacity:1 !important;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 588px){
+    .swiper-slide-text h2 {
+        max-width: 249px;
+    }
+    
+    
+    .slider-text-countdown-btn button {
+        padding: 13px 29px;
+
+}
+
+.days{
+    font-size: 20px;
+}
+
+.swiper-slide-countdown span{
+    margin: 11px 13px;
+    
+
+}
+
+.swiper-slide-text p{
+    font-size: 13px;
+}
+.slider-btn-prev-mobile{
+    left: 0;
+}
+.slider-btn-next-mobile{
+    right: 0px;
+}
+
+
+/***breakfeast***/
+
+
+.new-product span{
+   top: 10px;
+   margin: 0;
+   left: 10px;
+   ;
+}
+
+.price-cent-tl{
+    margin-top: 10px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.product-name{
+    margin-bottom: 18px;
+}
+
+.swiper-slide img{
+    height: fit-content;
+}
+
+.breakfeast-products-img{
+    height: 192px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
