@@ -431,6 +431,9 @@
   </section>
 
   <section>
+
+ 
+
    <div class="card-slider">
 
     <div class="left-card">
@@ -440,44 +443,60 @@
  
         <span> </span>
         <ul>
-         <div id="tab1" class="tab selected">
-          <li>Fındık</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div  class="tablinks selected">
+          <li> <button class=""  onclick="openTab(event, 'tab1')">Fındık</button> </li>
+          <div class="rightArrow">
+            <i class="fa-solid fa-chevron-right" ></i>
+          </div>
          </div>
  
-         <div id="tab2" class="tab">
-          <li>Portakal</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div class="tablinks">
+          <li> <button  onclick="openTab(event, 'tab2')">Portakal</button> </li>
+          <div class="rightArrow">
+            <i class="fa-solid fa-chevron-right" ></i>
+          </div>
          </div>
  
-         <div id="tab3" class="tab">
-          <li>Çay</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div  class="tablinks">
+          <li><button onclick="openTab(event, 'tab3')"> Çay      <i class="fa-solid fa-chevron-right" ></i> </button> </li>
+   
+         
+        
          </div>
  
-         <div id="tab4" class="tab">
-          <li>Kaymak</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div  class="tablinks">  
+          <li> <button   onclick="openTab(event, 'tab4')">  Kaymak</button> </li>
+          <div class="rightArrow">
+          <i class="fa-solid fa-chevron-right" ></i>
+        </div>
          </div>
  
-         <div id="tab5" class="tab">
-          <li>Süt</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div  class="tablinks">
+          <li> <button onclick="openTab(event, 'tab5')">Süt</button> </li>
+          <div class="rightArrow">
+            <i class="fa-solid fa-chevron-right" ></i>
+          </div>
          </div>
  
-         <div id="tab6" class="tab">
-          <li>Yöresel Peynirler</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div  class="tablinks">
+          <li> <button onclick="openTab(event, 'tab6')">Yöresel Peynirler</button> </li>
+          <div class="rightArrow">
+            <i class="fa-solid fa-chevron-right" ></i>
+          </div>
          </div>
  
-         <div id="tab7" class="tab">
-          <li>Taze Meyveler</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div  class="tablinks">
+          <li> <button onclick="openTab(event, 'tab7')">Taze Meyveler</button> </li>
+          <div class="rightArrow">
+            <i class="fa-solid fa-chevron-right" ></i>
+          </div>
          </div>
  
-         <div id="tab8" class="tab">
-          <li>Otlar ve Yeşillikler</li>
-          <i class="fa-solid fa-angle-right"></i>
+         <div  class="tablinks  ">
+          <li> <button  onclick="openTab(event, 'tab7')">Otlar ve Yeşillikler</button> </li>
+          <div class="rightArrow">
+            <i class="fa-solid fa-chevron-right" ></i>
+          </div>
          </div>
         </ul>
        </div>
@@ -497,20 +516,30 @@
       <option value="7">Antalya</option>
      </select>
     </div>
-
+  
     <div class="container_fluid ">
       
 
-
+        <div id="tab1" class="tabcontent">
       <div class="swiper swiper2 ">
       <div class="">
-        <div class="slider__navs ">
+        <div class="slider-tabs">
+          <div class="slider-tabs-head">
+          <p>Fındık</p>
+        </div>
+          <div class="slider__navs ">
           <div class="swiper-button-prev card-slider-btn-prev"></div>
           <div class="swiper-pagination slider-fraction"></div>
           <div class="swiper-button-next card-slider-btn-next"></div>
+        </div>
+
+      
+       
+   
+
          </div>
 
-         <div class=""></div>
+         
         </div>
         <div class="swiper-wrapper ">
           <div class="swiper-slide">
@@ -795,6 +824,316 @@
           </div>
         </div>
       </div>
+
+    </div>
+
+
+    <div id="tab2" class="tabcontent">
+      <div class="swiper swiper2 ">
+      <div class="">
+        <div class="slider-tabs">
+          <div class="slider-tabs-head">
+          <p>Fındık</p>
+        </div>
+          <div class="slider__navs ">
+          <div class="swiper-button-prev card-slider-btn-prev"></div>
+          <div class="swiper-pagination slider-fraction"></div>
+          <div class="swiper-button-next card-slider-btn-next"></div>
+        </div>
+
+      
+       
+   
+
+         </div>
+
+         
+        </div>
+        <div class="swiper-wrapper ">
+          <div class="swiper-slide">
+          <div class="slider-custom">
+            <div class="slider-custom__content" style="background-image: url(resimler/cards/Group-8650.png);">
+            <div class="icons-card">
+              <div class="icon-text">
+              <img src="resimler/card-icon/pin.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/heart.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/organic.png" alt="" />
+              <span>Ordu</span>
+              </div>
+            </div>
+            </div>
+            <div class="icons-card mobile-icon-card">
+            <div class="icon-text mobile-icon-text">
+              <img src="/resimler/grid-card/grid-icon/location.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="/resimler/grid-card/grid-icon/heart.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="resimler/card-icon/organic-blue.png" alt="" />
+              <span>Ordu</span>
+            </div>
+            </div>
+            <div class="slider-custom__footer">
+            <div class="text-price-1">
+              <div class="text-price-btn">
+              <span>22Kahraman Kaya Çiftliği</span>
+              <div class="price-content">
+                <del>
+                <span>79.00 TL</span>
+                </del>
+
+                <span class="price">49</span>
+                <span class="price-cent-tl">.00 TL</span>
+              </div>
+              <div class="btn-price">
+                <a href="#"><button>Sepete Ekle</button></a>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="slider-custom">
+            <div class="slider-custom__content" style="background-image: url(resimler/cards/Group-8650.png);">
+            <div class="icons-card">
+              <div class="icon-text">
+              <img src="resimler/card-icon/pin.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/heart.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/organic.png" alt="" />
+              <span>Ordu</span>
+              </div>
+            </div>
+            </div>
+            <div class="icons-card mobile-icon-card">
+            <div class="icon-text mobile-icon-text">
+              <img src="/resimler/grid-card/grid-icon/location.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="/resimler/grid-card/grid-icon/heart.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="resimler/card-icon/organic-blue.png" alt="" />
+              <span>Ordu</span>
+            </div>
+            </div>
+            <div class="slider-custom__footer">
+            <div class="text-price-1">
+              <div class="text-price-btn">
+              <span>Kahraman Kaya Çiftliği</span>
+              <div class="price-content">
+                <del>
+                <span>79.00 TL</span>
+                </del>
+
+                <span class="price">49</span>
+                <span class="price-cent-tl">.00 TL</span>
+              </div>
+              <div class="btn-price">
+                <a href="#"><button>Sepete Ekle</button></a>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="slider-custom">
+            <div class="slider-custom__content" style="background-image: url(resimler/cards/Group-8650.png);">
+            <div class="icons-card">
+              <div class="icon-text">
+              <img src="resimler/card-icon/pin.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/heart.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/organic.png" alt="" />
+              <span>Ordu</span>
+              </div>
+            </div>
+            </div>
+            <div class="icons-card mobile-icon-card">
+            <div class="icon-text mobile-icon-text">
+              <img src="/resimler/grid-card/grid-icon/location.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="/resimler/grid-card/grid-icon/heart.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="resimler/card-icon/organic-blue.png" alt="" />
+              <span>Ordu</span>
+            </div>
+            </div>
+            <div class="slider-custom__footer">
+            <div class="text-price-1">
+              <div class="text-price-btn">
+              <span>Kahraman Kaya Çiftliği</span>
+              <div class="price-content">
+                <del>
+                <span>79.00 TL</span>
+                </del>
+
+                <span class="price">49</span>
+                <span class="price-cent-tl">.00 TL</span>
+              </div>
+              <div class="btn-price">
+                <a href="#"><button>Sepete Ekle</button></a>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="slider-custom">
+            <div class="slider-custom__content" style="background-image: url(resimler/cards/Group-8650.png);">
+            <div class="icons-card">
+              <div class="icon-text">
+              <img src="resimler/card-icon/pin.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/heart.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/organic.png" alt="" />
+              <span>Ordu</span>
+              </div>
+            </div>
+            </div>
+            <div class="icons-card mobile-icon-card">
+            <div class="icon-text mobile-icon-text">
+              <img src="/resimler/grid-card/grid-icon/location.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="/resimler/grid-card/grid-icon/heart.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="resimler/card-icon/organic-blue.png" alt="" />
+              <span>Ordu</span>
+            </div>
+            </div>
+            <div class="slider-custom__footer">
+            <div class="text-price-1">
+              <div class="text-price-btn">
+              <span>Kahraman Kaya Çiftliği</span>
+              <div class="price-content">
+                <del>
+                <span>79.00 TL</span>
+                </del>
+
+                <span class="price">49</span>
+                <span class="price-cent-tl">.00 TL</span>
+              </div>
+              <div class="btn-price">
+                <a href="#"><button>Sepete Ekle</button></a>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+          <div class="slider-custom">
+            <div class="slider-custom__content" style="background-image: url(resimler/cards/Group-8650.png);">
+            <div class="icons-card">
+              <div class="icon-text">
+              <img src="resimler/card-icon/pin.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/heart.png" alt="" />
+              <span>Ordu</span>
+              </div>
+
+              <div class="icon-text">
+              <img src="resimler/card-icon/organic.png" alt="" />
+              <span>Ordu</span>
+              </div>
+            </div>
+            </div>
+            <div class="icons-card mobile-icon-card">
+            <div class="icon-text mobile-icon-text">
+              <img src="/resimler/grid-card/grid-icon/location.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="/resimler/grid-card/grid-icon/heart.png" alt="" />
+              <span>Ordu</span>
+            </div>
+
+            <div class="icon-text">
+              <img src="resimler/card-icon/organic-blue.png" alt="" />
+              <span>Ordu</span>
+            </div>
+            </div>
+            <div class="slider-custom__footer">
+            <div class="text-price-1">
+              <div class="text-price-btn">
+              <span>Kahraman Kaya Çiftliği</span>
+              <div class="price-content">
+                <del>
+                <span>79.00 TL</span>
+                </del>
+
+                <span class="price">49</span>
+                <span class="price-cent-tl">.00 TL</span>
+              </div>
+              <div class="btn-price">
+                <a href="#"><button>Sepete Ekle</button></a>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
  
     </div>
 

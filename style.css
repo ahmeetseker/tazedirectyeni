@@ -857,16 +857,106 @@ margin-top: 5px;
   .slider__navs{
     display: flex;
     align-items: baseline;
-    margin-top: 60px;
+  
 
     
   }
 
 
+  .flex{
+    display: flex;
+  }
+
+  .slider-tabs{
+    display: flex;
+    align-items: center;
+  }
+
+  .slider-tabs-head{
+    margin-right: 181px;
+    margin-left: 40px;
+  }
+
+.tablinks{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 26px ;
+}
+
+.tablinks button.active i {
+    display: inline-block;
+
+
+}
+
+
+.rightArrow{
+    display: none;
+}
+
+.tablinks li button i {
+
+    display: none;
+}
+
+.tablinks li button.active {
+
+    display: inline-block;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab button {
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+
+}
+
+
+
+
+.tab {
+    overflow: hidden;
+  }
+  
+.fa-chevron-right{
+    display: none;
+}
+  
+
+  .tabcontent {
+    display: none;
+ 
+  }
+  
+
+  
+  button{
+    cursor: pointer;
+  }
+
+
   .left-card{
-    position: absolute;
-    left: 0;
-    margin-top: 63px;
     margin-right: 110px;
     z-index: 88888;
   }
@@ -1055,6 +1145,14 @@ margin-top: 5px;
     background-color:#404040;
     border-radius: 3px;
     display: inline-block;
+    margin-bottom: 25px;
+}
+
+
+.tablinks li button{
+    background: none;
+    border: none;
+    
 }
 
 .tabs-slider{
@@ -1129,6 +1227,7 @@ margin-top: 5px;
     background-color: #34bc64;
     color: #fff;
     transition: .4s ease-in-out;
+    cursor: pointer;
 }
 
 
