@@ -885,26 +885,16 @@ margin-top: 5px;
     margin-bottom: 26px ;
 }
 
-.tablinks button.active i {
-    display: inline-block;
 
 
+
+
+
+.tab button{
+
+    color: gray;
 }
 
-
-.rightArrow{
-    display: none;
-}
-
-.tablinks li button i {
-
-    display: none;
-}
-
-.tablinks li button.active {
-
-    display: inline-block;
-}
 
 .tab {
   overflow: hidden;
@@ -915,17 +905,13 @@ margin-top: 5px;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 10px 20px;
+
   transition: background-color 0.3s;
 }
 
-.tab button:hover {
-  background-color: #ddd;
-}
 
-.tab button.active {
-  background-color: #ccc;
-}
+
+
 
 .tabcontent {
   display: none;

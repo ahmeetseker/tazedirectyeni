@@ -443,26 +443,30 @@
  
         <span> </span>
         <ul>
-         <div  class="tablinks selected">
-          <li> <button class=""  onclick="openTab(event, 'tab1')">Fındık</button> </li>
-          <div class="rightArrow">
+          <div class="tab">
+            <div class="tablinks selected" onclick="toggleTabContent('tab1')">
+              <li><button onclick="openTab(event, 'tab1')">Fındık</button></li>
+              <div class="rightArrow">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>  
+            
+            <div class="tablinks" onclick="toggleTabContent('tab2')">
+              <li><button onclick="openTab(event, 'tab2')">Portakal</button></li>
+              <div class="rightArrow">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+
+
+
+             
+          <div  class="tablinks">  
+            <li> <button   onclick="openTab(event, 'tab3')">  Çay</button> </li>
+            <div class="rightArrow">
             <i class="fa-solid fa-chevron-right" ></i>
           </div>
-         </div>
- 
-         <div class="tablinks">
-          <li> <button  onclick="openTab(event, 'tab2')">Portakal</button> </li>
-          <div class="rightArrow">
-            <i class="fa-solid fa-chevron-right" ></i>
-          </div>
-         </div>
- 
-         <div  class="tablinks">
-          <li><button onclick="openTab(event, 'tab3')"> Çay      <i class="fa-solid fa-chevron-right" ></i> </button> </li>
-   
-         
-        
-         </div>
+           </div>
  
          <div  class="tablinks">  
           <li> <button   onclick="openTab(event, 'tab4')">  Kaymak</button> </li>
@@ -498,6 +502,9 @@
             <i class="fa-solid fa-chevron-right" ></i>
           </div>
          </div>
+          </div>
+ 
+
         </ul>
        </div>
       </div>
