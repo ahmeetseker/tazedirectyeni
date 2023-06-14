@@ -233,6 +233,8 @@ height: 134px;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
+border-bottom-left-radius: 12px;
+
 }
 
 .cart-downlist{
@@ -240,12 +242,16 @@ justify-content: space-evenly;
     top: 103px;
     right: 0;
     width: 581px;
-    overflow-y: auto;
     max-height: 550px;
     z-index: 99999;
     background-image: linear-gradient(237deg, #34bc64 121%, #00ac60 -48%);
-    border-bottom-left-radius: 12px;
+    
     display: none;
+}
+
+.shop-dropdown{
+    overflow-y: auto;
+    max-height: 550px;
 }
 
 .shopping_cart:hover  .cart-downlist {
@@ -867,6 +873,7 @@ margin-top: 5px;
     display: flex;
   }
 
+
   .slider-tabs{
     display: flex;
     align-items: center;
@@ -886,10 +893,9 @@ margin-top: 5px;
 }
 
 
-
-
-
-
+.rightArrow{
+    display: none   ;
+}
 .tab button{
 
     color: gray;
@@ -925,9 +931,7 @@ margin-top: 5px;
     overflow: hidden;
   }
   
-.fa-chevron-right{
-    display: none;
-}
+
   
 
   .tabcontent {
