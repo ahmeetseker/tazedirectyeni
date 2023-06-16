@@ -254,6 +254,14 @@ border-bottom-left-radius: 12px;
     max-height: 550px;
 }
 
+.empty-cart-message{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .shopping_cart:hover  .cart-downlist {
     display: block;
 }
@@ -877,6 +885,7 @@ margin-top: 5px;
   .slider-tabs{
     display: flex;
     align-items: center;
+    margin-bottom: 44px ;
   }
 
   .slider-tabs-head{
@@ -1035,6 +1044,10 @@ margin-top: 5px;
   }
 
 
+.left-card-mobile select {
+    border-right: 32px solid transparent;
+}
+
   .days{
       color:#484848;
       font-size: 29px;
@@ -1042,7 +1055,7 @@ margin-top: 5px;
   }
   
 
-  .timeRefDays{
+  .timeRefDays  , .timeRefHours , .timeRefMinutes{ 
       color: #484848;
       font-size: 12px;
   }
@@ -1113,6 +1126,7 @@ margin-top: 5px;
     z-index: 9999;
     padding: 0px 63px;
     width: 100%;
+    margin-top: 60px;
 }
 
 .slider-card-menu h5{
