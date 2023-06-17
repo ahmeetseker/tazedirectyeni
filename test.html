@@ -309,15 +309,15 @@
 
     <div class="left-card-mobile">
      <h5>Popüler Ürünler +</h5>
-     <select name="Sehir">
-      <option value="0">Kategori Seçiniz</option>
-      <option value="1">Adana</option>
-      <option value="2">Adıyaman</option>
-      <option value="3">Afyonkarahisar</option>
-      <option value="4">Ağrı</option>
-      <option value="5">Amasya</option>
-      <option value="6">Ankara</option>
-      <option value="7">Antalya</option>
+     <select id="tabSelect" onchange="openTab(event)">
+      <option  disabled>Kategori Seçinizz</option>
+      <option  value="tab1"> <button >Fındık</button> </option>
+      <option  value="tab2">Portakal</option>
+      <option value="tab3">Çay</option>
+      <option value="tab4">Ağrı</option>
+      <option value="tab5">Amasya</option>
+      <option value="tab6">Ankara</option>
+      <option value="tab7">Antalya</option>
      </select>
     </div>
   
@@ -1253,12 +1253,12 @@
   </section>
 
   <section class="breakfeast-inclusive">
-    <div class="container_fluid">
+    <div >
      <div class="breakfeast-title">
       <h3>Kahvaltılık Ürünler</h3>
      </div>
-     <div class="slider-wrapper slider" data-perview="3">
-      <div class="swiper slider__swiper slider-breakfeast">
+     <div class="slider-wrapper slider">
+      <div class="swiper3 slider__swiper slider-breakfeast">
        <div class="swiper-wrapper">
         <div class="swiper-slide">
          <div class="breakfeast">
@@ -1471,7 +1471,7 @@ var swiper3 = new Swiper('.swiper3', {
         type: 'fraction',
       },
     paginationClickable: true,
-    slidesPerView: 3,
+    slidesPerView: 5,
     navigation: {
       nextEl: '.card-slider-btn-next',
       prevEl: '.card-slider-btn-prev',
@@ -1489,7 +1489,7 @@ var swiper3 = new Swiper('.swiper3', {
     },
     // when window width is >= 640px
     640: {
-      slidesPerView: 3,
+      slidesPerView: 5,
       spaceBetween: 40
     }
   }
@@ -1659,11 +1659,13 @@ clearCartButton.addEventListener("click", clearCart);
 
 
 
-<script>var countdownElements = document.getElementsByClassName('swiper-slide-countdown');
+<script>
+var countdownElements = document.getElementsByClassName('swiper-slide-countdown');
 
   var targetDates = [
-    new Date(2023, 5, 17, 12, 0, 0), // Örnek tarih ve saat
-    new Date(2023, 5, 18, 9, 30, 0), // Örnek tarih ve saat
+    new Date(2023, 12, 17, 12, 0, 0), // Örnek tarih ve saat
+    new Date(2023, 11, 18, 9, 30, 0),
+    new Date(2023, 11, 18, 9, 30, 0), // Örnek tarih ve saat
     // Diğer hedef tarihler buraya eklenebilir
   ];
   
